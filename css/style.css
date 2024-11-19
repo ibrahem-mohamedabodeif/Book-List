@@ -1,0 +1,81 @@
+body{
+    background-color: #e2efcb;
+}
+
+.head{
+    display: block;
+    text-align: center;
+    color: #554747;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+form label{
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #585858;
+    letter-spacing: 1.5px;
+}
+
+form input{
+    margin-bottom: 10px;
+    width: 300px;
+    border: 1px solid #b3b2b2;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+form input::placeholder{
+    font-size: 16px;
+    color: #BBC3A4;
+    letter-spacing: 1.5px;
+}
+
+form button{
+    margin-top: 18px;
+    padding: 8px;
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #a7a7a7;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+}
+
+form button:hover{
+    color: #272020;
+    background-color: #BBC3A4;
+}
+
+table{
+    margin-top: 100px;
+    width: 100%;
+}
+
+table thead{
+    color: #453f3f;
+    font-size: 20px;
+}
+
+table tbody tr th{
+    color: #6f6f6f;
+    padding-top: 5px;
+}
+
+table tbody{
+    font-size: 17px;
+}
+
+table tbody i:hover{
+    color: red;
+    cursor: pointer;
+}
+
